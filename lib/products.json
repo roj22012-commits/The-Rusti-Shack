@@ -1,0 +1,2716 @@
+[
+  {
+    "sku": "SNK-001",
+    "name": "Reef Explorer Snorkel Mask",
+    "category": "Snorkel & Dive",
+    "subcategory": "Masks",
+    "availability": "Both",
+    "basePrice": 42.99,
+    "baseRentalRate": 4.78,
+    "hasVariants": true,
+    "colorOptions": [
+      {
+        "color": "Clear",
+        "colorSlug": "clear",
+        "images": {
+          "studio": "/images/products/SNK-001-clear.jpg",
+          "lifestyle": "/images/products/SNK-001-clear-life.jpg"
+        }
+      },
+      {
+        "color": "Black",
+        "colorSlug": "black",
+        "images": {
+          "studio": "/images/products/SNK-001-black.jpg",
+          "lifestyle": "/images/products/SNK-001-black-life.jpg"
+        }
+      }
+    ],
+    "variants": [
+      {
+        "sku": "SNK-001-S-CLR",
+        "size": "S",
+        "color": "Clear",
+        "gender": "U",
+        "unitPrice": 42.99,
+        "unitCost": 18.29,
+        "rentalRate": 5.36
+      },
+      {
+        "sku": "SNK-001-M-CLR",
+        "size": "M",
+        "color": "Clear",
+        "gender": "U",
+        "unitPrice": 42.99,
+        "unitCost": 18.42,
+        "rentalRate": 4.96
+      },
+      {
+        "sku": "SNK-001-L-CLR",
+        "size": "L",
+        "color": "Clear",
+        "gender": "U",
+        "unitPrice": 42.99,
+        "unitCost": 18.49,
+        "rentalRate": 4.73
+      },
+      {
+        "sku": "SNK-001-S-BLK",
+        "size": "S",
+        "color": "Black",
+        "gender": "U",
+        "unitPrice": 42.99,
+        "unitCost": 18.31,
+        "rentalRate": 4.82
+      },
+      {
+        "sku": "SNK-001-M-BLK",
+        "size": "M",
+        "color": "Black",
+        "gender": "U",
+        "unitPrice": 42.99,
+        "unitCost": 18.71,
+        "rentalRate": 4.91
+      },
+      {
+        "sku": "SNK-001-L-BLK",
+        "size": "L",
+        "color": "Black",
+        "gender": "U",
+        "unitPrice": 42.99,
+        "unitCost": 18.62,
+        "rentalRate": 5.04
+      }
+    ],
+    "coverImage": {
+      "studio": "/images/products/SNK-001-clear.jpg",
+      "lifestyle": "/images/products/SNK-001-clear-life.jpg"
+    }
+  },
+  {
+    "sku": "SNK-003",
+    "name": "Junior Snorkel Set (Kids)",
+    "category": "Snorkel & Dive",
+    "subcategory": "Sets",
+    "availability": "Both",
+    "basePrice": 34.99,
+    "baseRentalRate": 4.35,
+    "hasVariants": true,
+    "colorOptions": [
+      {
+        "color": "Aqua",
+        "colorSlug": "aqua",
+        "images": {
+          "studio": "/images/products/SNK-003-aqua.jpg",
+          "lifestyle": "/images/products/SNK-003-aqua-life.jpg"
+        }
+      },
+      {
+        "color": "Pink",
+        "colorSlug": "pink",
+        "images": {
+          "studio": "/images/products/SNK-003-pink.jpg",
+          "lifestyle": "/images/products/SNK-003-pink-life.jpg"
+        }
+      }
+    ],
+    "variants": [
+      {
+        "sku": "SNK-003-K4-7-AQUA",
+        "size": "Age 4-7",
+        "color": "Aqua",
+        "gender": "U",
+        "unitPrice": 34.99,
+        "unitCost": 16.29,
+        "rentalRate": 3.87
+      },
+      {
+        "sku": "SNK-003-K4-7-PINK",
+        "size": "Age 4-7",
+        "color": "Pink",
+        "gender": "U",
+        "unitPrice": 34.99,
+        "unitCost": 16.28,
+        "rentalRate": 3.89
+      },
+      {
+        "sku": "SNK-003-K8-12-AQUA",
+        "size": "Age 8-12",
+        "color": "Aqua",
+        "gender": "U",
+        "unitPrice": 34.99,
+        "unitCost": 15.84,
+        "rentalRate": 3.79
+      },
+      {
+        "sku": "SNK-003-K8-12-PINK",
+        "size": "Age 8-12",
+        "color": "Pink",
+        "gender": "U",
+        "unitPrice": 34.99,
+        "unitCost": 15.9,
+        "rentalRate": 3.81
+      }
+    ],
+    "coverImage": {
+      "studio": "/images/products/SNK-003-aqua.jpg",
+      "lifestyle": "/images/products/SNK-003-aqua-life.jpg"
+    }
+  },
+  {
+    "sku": "FIN-001",
+    "name": "Open-Heel Dive Fins",
+    "category": "Snorkel & Dive",
+    "subcategory": "Fins",
+    "availability": "Both",
+    "basePrice": 79.0,
+    "baseRentalRate": 6.44,
+    "hasVariants": true,
+    "colorOptions": [
+      {
+        "color": "Black",
+        "colorSlug": "black",
+        "images": {
+          "studio": "/images/products/FIN-001.jpg",
+          "lifestyle": "/images/products/FIN-001-life.jpg"
+        }
+      }
+    ],
+    "variants": [
+      {
+        "sku": "FIN-001-S",
+        "size": "S (W6-7)",
+        "color": "Black",
+        "gender": "U",
+        "unitPrice": 79.0,
+        "unitCost": 32.08,
+        "rentalRate": 6.12
+      },
+      {
+        "sku": "FIN-001-M",
+        "size": "M (W8-9 / M7-8)",
+        "color": "Black",
+        "gender": "U",
+        "unitPrice": 79.0,
+        "unitCost": 31.79,
+        "rentalRate": 6.22
+      },
+      {
+        "sku": "FIN-001-L",
+        "size": "L (M9-10)",
+        "color": "Black",
+        "gender": "U",
+        "unitPrice": 79.0,
+        "unitCost": 31.95,
+        "rentalRate": 6.1
+      },
+      {
+        "sku": "FIN-001-XL",
+        "size": "XL (M11-12)",
+        "color": "Black",
+        "gender": "U",
+        "unitPrice": 79.0,
+        "unitCost": 31.62,
+        "rentalRate": 6.42
+      }
+    ],
+    "coverImage": {
+      "studio": "/images/products/FIN-001.jpg",
+      "lifestyle": "/images/products/FIN-001-life.jpg"
+    }
+  },
+  {
+    "sku": "FIN-003",
+    "name": "Kids Swim Fins",
+    "category": "Snorkel & Dive",
+    "subcategory": "Fins",
+    "availability": "Both",
+    "basePrice": 29.99,
+    "baseRentalRate": 3.15,
+    "hasVariants": true,
+    "colorOptions": [
+      {
+        "color": "Aqua",
+        "colorSlug": "aqua",
+        "images": {
+          "studio": "/images/products/FIN-003.jpg",
+          "lifestyle": "/images/products/FIN-003-life.jpg"
+        }
+      }
+    ],
+    "variants": [
+      {
+        "sku": "FIN-003-S",
+        "size": "Kids S",
+        "color": "Aqua",
+        "gender": "U",
+        "unitPrice": 29.99,
+        "unitCost": 13.67,
+        "rentalRate": 3.46
+      },
+      {
+        "sku": "FIN-003-M",
+        "size": "Kids M",
+        "color": "Aqua",
+        "gender": "U",
+        "unitPrice": 29.99,
+        "unitCost": 13.8,
+        "rentalRate": 2.64
+      }
+    ],
+    "coverImage": {
+      "studio": "/images/products/FIN-003.jpg",
+      "lifestyle": "/images/products/FIN-003-life.jpg"
+    }
+  },
+  {
+    "sku": "BCH-003",
+    "name": "Beach Towel Tropical Print",
+    "category": "Beach Essentials",
+    "subcategory": "Towels",
+    "availability": "Both",
+    "basePrice": 24.99,
+    "baseRentalRate": 2.71,
+    "hasVariants": true,
+    "colorOptions": [
+      {
+        "color": "Sunset Print",
+        "colorSlug": "sunset-print",
+        "images": {
+          "studio": "/images/products/BCH-003-sunset-print.jpg",
+          "lifestyle": "/images/products/BCH-003-life.jpg"
+        }
+      },
+      {
+        "color": "Reef Print",
+        "colorSlug": "reef-print",
+        "images": {
+          "studio": "/images/products/BCH-003-reef-print.jpg",
+          "lifestyle": "/images/products/BCH-003-life.jpg"
+        }
+      },
+      {
+        "color": "Palm Print",
+        "colorSlug": "palm-print",
+        "images": {
+          "studio": "/images/products/BCH-003-palm-print.jpg",
+          "lifestyle": "/images/products/BCH-003-life.jpg"
+        }
+      }
+    ],
+    "variants": [
+      {
+        "sku": "BCH-003-SUNSET",
+        "size": "Standard",
+        "color": "Sunset Print",
+        "gender": "U",
+        "unitPrice": 24.99,
+        "unitCost": 8.75,
+        "rentalRate": 3.26
+      },
+      {
+        "sku": "BCH-003-REEF",
+        "size": "Standard",
+        "color": "Reef Print",
+        "gender": "U",
+        "unitPrice": 24.99,
+        "unitCost": 9.01,
+        "rentalRate": 2.95
+      },
+      {
+        "sku": "BCH-003-PALM",
+        "size": "Standard",
+        "color": "Palm Print",
+        "gender": "U",
+        "unitPrice": 24.99,
+        "unitCost": 8.69,
+        "rentalRate": 3.41
+      }
+    ],
+    "coverImage": {
+      "studio": "/images/products/BCH-003-sunset-print.jpg",
+      "lifestyle": "/images/products/BCH-003-life.jpg"
+    }
+  },
+  {
+    "sku": "SUR-003",
+    "name": "Beginner Foam Surfboard",
+    "category": "Surfing",
+    "subcategory": "Surfboards",
+    "availability": "Both",
+    "basePrice": 279.0,
+    "baseRentalRate": 15.03,
+    "hasVariants": true,
+    "colorOptions": [
+      {
+        "color": "Blue",
+        "colorSlug": "blue",
+        "images": {
+          "studio": "/images/products/SUR-003.jpg",
+          "lifestyle": "/images/products/SUR-003-life.jpg"
+        }
+      }
+    ],
+    "variants": [
+      {
+        "sku": "SUR-003-7FT",
+        "size": "7'0",
+        "color": "Blue",
+        "gender": "U",
+        "unitPrice": 279.0,
+        "unitCost": 109.82,
+        "rentalRate": 15.48
+      },
+      {
+        "sku": "SUR-003-8FT",
+        "size": "8'0",
+        "color": "Blue",
+        "gender": "U",
+        "unitPrice": 279.0,
+        "unitCost": 110.4,
+        "rentalRate": 14.75
+      },
+      {
+        "sku": "SUR-003-9FT",
+        "size": "9'0",
+        "color": "Blue",
+        "gender": "U",
+        "unitPrice": 279.0,
+        "unitCost": 109.74,
+        "rentalRate": 15.37
+      }
+    ],
+    "coverImage": {
+      "studio": "/images/products/SUR-003.jpg",
+      "lifestyle": "/images/products/SUR-003-life.jpg"
+    }
+  },
+  {
+    "sku": "APP-001",
+    "name": "Tide & Tempo Logo Tee",
+    "category": "Apparel",
+    "subcategory": "Shirts",
+    "availability": "Sale only",
+    "basePrice": 24.99,
+    "baseRentalRate": null,
+    "hasVariants": true,
+    "colorOptions": [
+      {
+        "color": "Teal",
+        "colorSlug": "teal",
+        "images": {
+          "studio": "/images/products/APP-001-m.jpg",
+          "lifestyle": "/images/products/APP-001-life.jpg"
+        }
+      }
+    ],
+    "variants": [
+      {
+        "sku": "APP-001-XS-M",
+        "size": "XS",
+        "color": "Teal",
+        "gender": "M",
+        "unitPrice": 24.99,
+        "unitCost": 7.87,
+        "rentalRate": null
+      },
+      {
+        "sku": "APP-001-XS-W",
+        "size": "XS",
+        "color": "Teal",
+        "gender": "W",
+        "unitPrice": 24.99,
+        "unitCost": 8.28,
+        "rentalRate": null
+      },
+      {
+        "sku": "APP-001-S-M",
+        "size": "S",
+        "color": "Teal",
+        "gender": "M",
+        "unitPrice": 24.99,
+        "unitCost": 7.76,
+        "rentalRate": null
+      },
+      {
+        "sku": "APP-001-S-W",
+        "size": "S",
+        "color": "Teal",
+        "gender": "W",
+        "unitPrice": 24.99,
+        "unitCost": 7.89,
+        "rentalRate": null
+      },
+      {
+        "sku": "APP-001-M-M",
+        "size": "M",
+        "color": "Teal",
+        "gender": "M",
+        "unitPrice": 24.99,
+        "unitCost": 7.93,
+        "rentalRate": null
+      },
+      {
+        "sku": "APP-001-M-W",
+        "size": "M",
+        "color": "Teal",
+        "gender": "W",
+        "unitPrice": 24.99,
+        "unitCost": 7.87,
+        "rentalRate": null
+      },
+      {
+        "sku": "APP-001-L-M",
+        "size": "L",
+        "color": "Teal",
+        "gender": "M",
+        "unitPrice": 24.99,
+        "unitCost": 7.99,
+        "rentalRate": null
+      },
+      {
+        "sku": "APP-001-L-W",
+        "size": "L",
+        "color": "Teal",
+        "gender": "W",
+        "unitPrice": 24.99,
+        "unitCost": 7.98,
+        "rentalRate": null
+      },
+      {
+        "sku": "APP-001-XL-M",
+        "size": "XL",
+        "color": "Teal",
+        "gender": "M",
+        "unitPrice": 24.99,
+        "unitCost": 8.11,
+        "rentalRate": null
+      },
+      {
+        "sku": "APP-001-XL-W",
+        "size": "XL",
+        "color": "Teal",
+        "gender": "W",
+        "unitPrice": 24.99,
+        "unitCost": 7.89,
+        "rentalRate": null
+      }
+    ],
+    "coverImage": {
+      "studio": "/images/products/APP-001-m.jpg",
+      "lifestyle": "/images/products/APP-001-life.jpg"
+    }
+  },
+  {
+    "sku": "SNK-002",
+    "name": "Pro Anti-Fog Snorkel Mask",
+    "category": "Snorkel & Dive",
+    "subcategory": "Masks",
+    "availability": "Both",
+    "basePrice": 58.0,
+    "baseRentalRate": 5.51,
+    "hasVariants": true,
+    "colorOptions": [
+      {
+        "color": "Clear",
+        "colorSlug": "clear",
+        "images": {
+          "studio": "/images/products/SNK-002-clear.jpg",
+          "lifestyle": "/images/products/SNK-002-clear-life.jpg"
+        }
+      },
+      {
+        "color": "Black",
+        "colorSlug": "black",
+        "images": {
+          "studio": "/images/products/SNK-002-black.jpg",
+          "lifestyle": "/images/products/SNK-002-black-life.jpg"
+        }
+      }
+    ],
+    "variants": [
+      {
+        "sku": "SNK-002-S-CLR",
+        "size": "S",
+        "color": "Clear",
+        "gender": "U",
+        "unitPrice": 58.0,
+        "unitCost": 23.74,
+        "rentalRate": 6.11
+      },
+      {
+        "sku": "SNK-002-M-CLR",
+        "size": "M",
+        "color": "Clear",
+        "gender": "U",
+        "unitPrice": 58.0,
+        "unitCost": 23.78,
+        "rentalRate": 5.75
+      },
+      {
+        "sku": "SNK-002-L-CLR",
+        "size": "L",
+        "color": "Clear",
+        "gender": "U",
+        "unitPrice": 58.0,
+        "unitCost": 24.13,
+        "rentalRate": 5.91
+      },
+      {
+        "sku": "SNK-002-S-BLK",
+        "size": "S",
+        "color": "Black",
+        "gender": "U",
+        "unitPrice": 58.0,
+        "unitCost": 24.28,
+        "rentalRate": 5.64
+      },
+      {
+        "sku": "SNK-002-M-BLK",
+        "size": "M",
+        "color": "Black",
+        "gender": "U",
+        "unitPrice": 58.0,
+        "unitCost": 23.79,
+        "rentalRate": 5.95
+      },
+      {
+        "sku": "SNK-002-L-BLK",
+        "size": "L",
+        "color": "Black",
+        "gender": "U",
+        "unitPrice": 58.0,
+        "unitCost": 23.65,
+        "rentalRate": 6.26
+      }
+    ],
+    "coverImage": {
+      "studio": "/images/products/SNK-002-clear.jpg",
+      "lifestyle": "/images/products/SNK-002-clear-life.jpg"
+    }
+  },
+  {
+    "sku": "SNK-004",
+    "name": "Adult Snorkel Set",
+    "category": "Snorkel & Dive",
+    "subcategory": "Sets",
+    "availability": "Both",
+    "basePrice": 64.99,
+    "baseRentalRate": 7.01,
+    "hasVariants": true,
+    "colorOptions": [
+      {
+        "color": "Black",
+        "colorSlug": "black",
+        "images": {
+          "studio": "/images/products/SNK-004.jpg",
+          "lifestyle": "/images/products/SNK-004-life.jpg"
+        }
+      }
+    ],
+    "variants": [
+      {
+        "sku": "SNK-004-S",
+        "size": "S",
+        "color": "Black",
+        "gender": "U",
+        "unitPrice": 64.99,
+        "unitCost": 27.61,
+        "rentalRate": 7.25
+      },
+      {
+        "sku": "SNK-004-M",
+        "size": "M",
+        "color": "Black",
+        "gender": "U",
+        "unitPrice": 64.99,
+        "unitCost": 27.63,
+        "rentalRate": 7.04
+      },
+      {
+        "sku": "SNK-004-L",
+        "size": "L",
+        "color": "Black",
+        "gender": "U",
+        "unitPrice": 64.99,
+        "unitCost": 27.81,
+        "rentalRate": 7.04
+      }
+    ],
+    "coverImage": {
+      "studio": "/images/products/SNK-004.jpg",
+      "lifestyle": "/images/products/SNK-004-life.jpg"
+    }
+  },
+  {
+    "sku": "FIN-002",
+    "name": "Travel Snorkel Fins",
+    "category": "Snorkel & Dive",
+    "subcategory": "Fins",
+    "availability": "Both",
+    "basePrice": 49.99,
+    "baseRentalRate": 5.38,
+    "hasVariants": true,
+    "colorOptions": [
+      {
+        "color": "Black",
+        "colorSlug": "black",
+        "images": {
+          "studio": "/images/products/FIN-002.jpg",
+          "lifestyle": "/images/products/FIN-002-life.jpg"
+        }
+      }
+    ],
+    "variants": [
+      {
+        "sku": "FIN-002-S",
+        "size": "S (W6-7)",
+        "color": "Black",
+        "gender": "U",
+        "unitPrice": 49.99,
+        "unitCost": 21.76,
+        "rentalRate": 4.84
+      },
+      {
+        "sku": "FIN-002-M",
+        "size": "M (W8-9 / M7-8)",
+        "color": "Black",
+        "gender": "U",
+        "unitPrice": 49.99,
+        "unitCost": 21.89,
+        "rentalRate": 5.1
+      },
+      {
+        "sku": "FIN-002-L",
+        "size": "L (M9-10)",
+        "color": "Black",
+        "gender": "U",
+        "unitPrice": 49.99,
+        "unitCost": 21.67,
+        "rentalRate": 4.5
+      },
+      {
+        "sku": "FIN-002-XL",
+        "size": "XL (M11-12)",
+        "color": "Black",
+        "gender": "U",
+        "unitPrice": 49.99,
+        "unitCost": 21.7,
+        "rentalRate": 5.1
+      }
+    ],
+    "coverImage": {
+      "studio": "/images/products/FIN-002.jpg",
+      "lifestyle": "/images/products/FIN-002-life.jpg"
+    }
+  },
+  {
+    "sku": "WET-001",
+    "name": "3mm Shorty Wetsuit",
+    "category": "Snorkel & Dive",
+    "subcategory": "Wetsuits",
+    "availability": "Both",
+    "basePrice": 109.0,
+    "baseRentalRate": 10.31,
+    "hasVariants": true,
+    "colorOptions": [
+      {
+        "color": "Black",
+        "colorSlug": "black",
+        "images": {
+          "studio": "/images/products/WET-001-m.jpg",
+          "lifestyle": "/images/products/WET-001-life.jpg"
+        }
+      }
+    ],
+    "variants": [
+      {
+        "sku": "WET-001-S-M",
+        "size": "S",
+        "color": "Black",
+        "gender": "M",
+        "unitPrice": 109.0,
+        "unitCost": 44.67,
+        "rentalRate": 9.67
+      },
+      {
+        "sku": "WET-001-S-W",
+        "size": "S",
+        "color": "Black",
+        "gender": "W",
+        "unitPrice": 109.0,
+        "unitCost": 45.22,
+        "rentalRate": 10.28
+      },
+      {
+        "sku": "WET-001-M-M",
+        "size": "M",
+        "color": "Black",
+        "gender": "M",
+        "unitPrice": 109.0,
+        "unitCost": 44.71,
+        "rentalRate": 10.21
+      },
+      {
+        "sku": "WET-001-M-W",
+        "size": "M",
+        "color": "Black",
+        "gender": "W",
+        "unitPrice": 109.0,
+        "unitCost": 45.25,
+        "rentalRate": 9.8
+      },
+      {
+        "sku": "WET-001-L-M",
+        "size": "L",
+        "color": "Black",
+        "gender": "M",
+        "unitPrice": 109.0,
+        "unitCost": 44.7,
+        "rentalRate": 9.68
+      },
+      {
+        "sku": "WET-001-L-W",
+        "size": "L",
+        "color": "Black",
+        "gender": "W",
+        "unitPrice": 109.0,
+        "unitCost": 44.63,
+        "rentalRate": 10.1
+      },
+      {
+        "sku": "WET-001-XL-M",
+        "size": "XL",
+        "color": "Black",
+        "gender": "M",
+        "unitPrice": 109.0,
+        "unitCost": 44.97,
+        "rentalRate": 10.49
+      },
+      {
+        "sku": "WET-001-XL-W",
+        "size": "XL",
+        "color": "Black",
+        "gender": "W",
+        "unitPrice": 109.0,
+        "unitCost": 44.98,
+        "rentalRate": 10.32
+      }
+    ],
+    "coverImage": {
+      "studio": "/images/products/WET-001-m.jpg",
+      "lifestyle": "/images/products/WET-001-life.jpg"
+    }
+  },
+  {
+    "sku": "WET-002",
+    "name": "Rashguard Long Sleeve",
+    "category": "Apparel",
+    "subcategory": "Rashguards",
+    "availability": "Sale only",
+    "basePrice": 32.99,
+    "baseRentalRate": null,
+    "hasVariants": true,
+    "colorOptions": [
+      {
+        "color": "Navy",
+        "colorSlug": "navy",
+        "images": {
+          "studio": "/images/products/WET-002-navy-m.jpg",
+          "lifestyle": "/images/products/WET-002-navy-life.jpg"
+        }
+      },
+      {
+        "color": "Coral",
+        "colorSlug": "coral",
+        "images": {
+          "studio": "/images/products/WET-002-coral-w.jpg",
+          "lifestyle": "/images/products/WET-002-coral-life.jpg"
+        }
+      }
+    ],
+    "variants": [
+      {
+        "sku": "WET-002-S-M",
+        "size": "S",
+        "color": "Navy",
+        "gender": "M",
+        "unitPrice": 32.99,
+        "unitCost": 13.81,
+        "rentalRate": null
+      },
+      {
+        "sku": "WET-002-S-W",
+        "size": "S",
+        "color": "Coral",
+        "gender": "W",
+        "unitPrice": 32.99,
+        "unitCost": 13.7,
+        "rentalRate": null
+      },
+      {
+        "sku": "WET-002-M-M",
+        "size": "M",
+        "color": "Navy",
+        "gender": "M",
+        "unitPrice": 32.99,
+        "unitCost": 14.37,
+        "rentalRate": null
+      },
+      {
+        "sku": "WET-002-M-W",
+        "size": "M",
+        "color": "Coral",
+        "gender": "W",
+        "unitPrice": 32.99,
+        "unitCost": 13.79,
+        "rentalRate": null
+      },
+      {
+        "sku": "WET-002-L-M",
+        "size": "L",
+        "color": "Navy",
+        "gender": "M",
+        "unitPrice": 32.99,
+        "unitCost": 14.24,
+        "rentalRate": null
+      },
+      {
+        "sku": "WET-002-L-W",
+        "size": "L",
+        "color": "Coral",
+        "gender": "W",
+        "unitPrice": 32.99,
+        "unitCost": 13.75,
+        "rentalRate": null
+      },
+      {
+        "sku": "WET-002-XL-M",
+        "size": "XL",
+        "color": "Navy",
+        "gender": "M",
+        "unitPrice": 32.99,
+        "unitCost": 14.38,
+        "rentalRate": null
+      },
+      {
+        "sku": "WET-002-XL-W",
+        "size": "XL",
+        "color": "Coral",
+        "gender": "W",
+        "unitPrice": 32.99,
+        "unitCost": 14.07,
+        "rentalRate": null
+      }
+    ],
+    "coverImage": {
+      "studio": "/images/products/WET-002-navy-m.jpg",
+      "lifestyle": "/images/products/WET-002-navy-life.jpg"
+    }
+  },
+  {
+    "sku": "APP-002",
+    "name": "Apo Island Souvenir Tee",
+    "category": "Apparel",
+    "subcategory": "Shirts",
+    "availability": "Sale only",
+    "basePrice": 26.99,
+    "baseRentalRate": null,
+    "hasVariants": true,
+    "colorOptions": [
+      {
+        "color": "Sand",
+        "colorSlug": "sand",
+        "images": {
+          "studio": "/images/products/APP-002-m.jpg",
+          "lifestyle": "/images/products/APP-002-life.jpg"
+        }
+      }
+    ],
+    "variants": [
+      {
+        "sku": "APP-002-XS-M",
+        "size": "XS",
+        "color": "Sand",
+        "gender": "M",
+        "unitPrice": 26.99,
+        "unitCost": 9.2,
+        "rentalRate": null
+      },
+      {
+        "sku": "APP-002-XS-W",
+        "size": "XS",
+        "color": "Sand",
+        "gender": "W",
+        "unitPrice": 26.99,
+        "unitCost": 9.15,
+        "rentalRate": null
+      },
+      {
+        "sku": "APP-002-S-M",
+        "size": "S",
+        "color": "Sand",
+        "gender": "M",
+        "unitPrice": 26.99,
+        "unitCost": 9.33,
+        "rentalRate": null
+      },
+      {
+        "sku": "APP-002-S-W",
+        "size": "S",
+        "color": "Sand",
+        "gender": "W",
+        "unitPrice": 26.99,
+        "unitCost": 9.11,
+        "rentalRate": null
+      },
+      {
+        "sku": "APP-002-M-M",
+        "size": "M",
+        "color": "Sand",
+        "gender": "M",
+        "unitPrice": 26.99,
+        "unitCost": 8.79,
+        "rentalRate": null
+      },
+      {
+        "sku": "APP-002-M-W",
+        "size": "M",
+        "color": "Sand",
+        "gender": "W",
+        "unitPrice": 26.99,
+        "unitCost": 9.33,
+        "rentalRate": null
+      },
+      {
+        "sku": "APP-002-L-M",
+        "size": "L",
+        "color": "Sand",
+        "gender": "M",
+        "unitPrice": 26.99,
+        "unitCost": 9.03,
+        "rentalRate": null
+      },
+      {
+        "sku": "APP-002-L-W",
+        "size": "L",
+        "color": "Sand",
+        "gender": "W",
+        "unitPrice": 26.99,
+        "unitCost": 8.86,
+        "rentalRate": null
+      },
+      {
+        "sku": "APP-002-XL-M",
+        "size": "XL",
+        "color": "Sand",
+        "gender": "M",
+        "unitPrice": 26.99,
+        "unitCost": 9.38,
+        "rentalRate": null
+      },
+      {
+        "sku": "APP-002-XL-W",
+        "size": "XL",
+        "color": "Sand",
+        "gender": "W",
+        "unitPrice": 26.99,
+        "unitCost": 9.07,
+        "rentalRate": null
+      }
+    ],
+    "coverImage": {
+      "studio": "/images/products/APP-002-m.jpg",
+      "lifestyle": "/images/products/APP-002-life.jpg"
+    }
+  },
+  {
+    "sku": "BCH-004",
+    "name": "Microfiber Quick-Dry Towel",
+    "category": "Beach Essentials",
+    "subcategory": "Towels",
+    "availability": "Both",
+    "basePrice": 28.0,
+    "baseRentalRate": 3.29,
+    "hasVariants": true,
+    "colorOptions": [
+      {
+        "color": "Blue",
+        "colorSlug": "blue",
+        "images": {
+          "studio": "/images/products/BCH-004-blue.jpg",
+          "lifestyle": "/images/products/BCH-004-life.jpg"
+        }
+      },
+      {
+        "color": "Coral",
+        "colorSlug": "coral",
+        "images": {
+          "studio": "/images/products/BCH-004-coral.jpg",
+          "lifestyle": "/images/products/BCH-004-life.jpg"
+        }
+      },
+      {
+        "color": "Black",
+        "colorSlug": "black",
+        "images": {
+          "studio": "/images/products/BCH-004-black.jpg",
+          "lifestyle": "/images/products/BCH-004-life.jpg"
+        }
+      }
+    ],
+    "variants": [
+      {
+        "sku": "BCH-004-M-BLU",
+        "size": "M (60x120cm)",
+        "color": "Blue",
+        "gender": "U",
+        "unitPrice": 28.0,
+        "unitCost": 11.06,
+        "rentalRate": 3.35
+      },
+      {
+        "sku": "BCH-004-L-BLU",
+        "size": "L (80x160cm)",
+        "color": "Blue",
+        "gender": "U",
+        "unitPrice": 28.0,
+        "unitCost": 11.21,
+        "rentalRate": 3.43
+      },
+      {
+        "sku": "BCH-004-M-CRL",
+        "size": "M (60x120cm)",
+        "color": "Coral",
+        "gender": "U",
+        "unitPrice": 28.0,
+        "unitCost": 11.05,
+        "rentalRate": 2.7
+      },
+      {
+        "sku": "BCH-004-L-CRL",
+        "size": "L (80x160cm)",
+        "color": "Coral",
+        "gender": "U",
+        "unitPrice": 28.0,
+        "unitCost": 10.93,
+        "rentalRate": 3.38
+      },
+      {
+        "sku": "BCH-004-M-BLK",
+        "size": "M (60x120cm)",
+        "color": "Black",
+        "gender": "U",
+        "unitPrice": 28.0,
+        "unitCost": 10.9,
+        "rentalRate": 3.39
+      },
+      {
+        "sku": "BCH-004-L-BLK",
+        "size": "L (80x160cm)",
+        "color": "Black",
+        "gender": "U",
+        "unitPrice": 28.0,
+        "unitCost": 11.04,
+        "rentalRate": 2.85
+      }
+    ],
+    "coverImage": {
+      "studio": "/images/products/BCH-004-blue.jpg",
+      "lifestyle": "/images/products/BCH-004-life.jpg"
+    }
+  },
+  {
+    "sku": "BCH-012",
+    "name": "Cooler Bag Insulated 24L",
+    "category": "Beach Essentials",
+    "subcategory": "Coolers",
+    "availability": "Both",
+    "basePrice": 58.0,
+    "baseRentalRate": 4.85,
+    "hasVariants": true,
+    "colorOptions": [
+      {
+        "color": "Blue",
+        "colorSlug": "blue",
+        "images": {
+          "studio": "/images/products/BCH-012.jpg",
+          "lifestyle": "/images/products/BCH-012-life.jpg"
+        }
+      }
+    ],
+    "variants": [
+      {
+        "sku": "BCH-012-16L",
+        "size": "16 L",
+        "color": "Blue",
+        "gender": "U",
+        "unitPrice": 44.0,
+        "unitCost": 18.28,
+        "rentalRate": 4.68
+      },
+      {
+        "sku": "BCH-012-24L",
+        "size": "24 L",
+        "color": "Blue",
+        "gender": "U",
+        "unitPrice": 58.0,
+        "unitCost": 24.29,
+        "rentalRate": 4.77
+      },
+      {
+        "sku": "BCH-012-40L",
+        "size": "40 L",
+        "color": "Blue",
+        "gender": "U",
+        "unitPrice": 79.0,
+        "unitCost": 35.97,
+        "rentalRate": 5.09
+      }
+    ],
+    "coverImage": {
+      "studio": "/images/products/BCH-012.jpg",
+      "lifestyle": "/images/products/BCH-012-life.jpg"
+    }
+  },
+  {
+    "sku": "APP-003",
+    "name": "Boardshorts — Mens",
+    "category": "Apparel",
+    "subcategory": "Bottoms",
+    "availability": "Sale only",
+    "basePrice": 44.99,
+    "baseRentalRate": null,
+    "hasVariants": true,
+    "colorOptions": [
+      {
+        "color": "Navy",
+        "colorSlug": "navy",
+        "images": {
+          "studio": "/images/products/APP-003.jpg",
+          "lifestyle": "/images/products/APP-003-life.jpg"
+        }
+      }
+    ],
+    "variants": [
+      {
+        "sku": "APP-003-28",
+        "size": "28",
+        "color": "Navy",
+        "gender": "M",
+        "unitPrice": 44.99,
+        "unitCost": 17.62,
+        "rentalRate": null
+      },
+      {
+        "sku": "APP-003-30",
+        "size": "30",
+        "color": "Navy",
+        "gender": "M",
+        "unitPrice": 44.99,
+        "unitCost": 18.17,
+        "rentalRate": null
+      },
+      {
+        "sku": "APP-003-32",
+        "size": "32",
+        "color": "Navy",
+        "gender": "M",
+        "unitPrice": 44.99,
+        "unitCost": 17.65,
+        "rentalRate": null
+      },
+      {
+        "sku": "APP-003-34",
+        "size": "34",
+        "color": "Navy",
+        "gender": "M",
+        "unitPrice": 44.99,
+        "unitCost": 18.01,
+        "rentalRate": null
+      },
+      {
+        "sku": "APP-003-36",
+        "size": "36",
+        "color": "Navy",
+        "gender": "M",
+        "unitPrice": 44.99,
+        "unitCost": 17.7,
+        "rentalRate": null
+      },
+      {
+        "sku": "APP-003-38",
+        "size": "38",
+        "color": "Navy",
+        "gender": "M",
+        "unitPrice": 44.99,
+        "unitCost": 18.06,
+        "rentalRate": null
+      },
+      {
+        "sku": "APP-003-40",
+        "size": "40",
+        "color": "Navy",
+        "gender": "M",
+        "unitPrice": 44.99,
+        "unitCost": 17.94,
+        "rentalRate": null
+      }
+    ],
+    "coverImage": {
+      "studio": "/images/products/APP-003.jpg",
+      "lifestyle": "/images/products/APP-003-life.jpg"
+    }
+  },
+  {
+    "sku": "APP-004",
+    "name": "Bikini Set — Womens",
+    "category": "Apparel",
+    "subcategory": "Swimwear",
+    "availability": "Sale only",
+    "basePrice": 54.0,
+    "baseRentalRate": null,
+    "hasVariants": true,
+    "colorOptions": [
+      {
+        "color": "Coral",
+        "colorSlug": "coral",
+        "images": {
+          "studio": "/images/products/APP-004-coral.jpg",
+          "lifestyle": "/images/products/APP-004-coral-life.jpg"
+        }
+      },
+      {
+        "color": "Aqua",
+        "colorSlug": "aqua",
+        "images": {
+          "studio": "/images/products/APP-004-aqua.jpg",
+          "lifestyle": "/images/products/APP-004-aqua-life.jpg"
+        }
+      },
+      {
+        "color": "Black",
+        "colorSlug": "black",
+        "images": {
+          "studio": "/images/products/APP-004-black.jpg",
+          "lifestyle": "/images/products/APP-004-black-life.jpg"
+        }
+      },
+      {
+        "color": "Tropical Print",
+        "colorSlug": "tropical-print",
+        "images": {
+          "studio": "/images/products/APP-004-tropical-print.jpg",
+          "lifestyle": "/images/products/APP-004-tropical-print-life.jpg"
+        }
+      }
+    ],
+    "variants": [
+      {
+        "sku": "APP-004-XS-COR",
+        "size": "XS",
+        "color": "Coral",
+        "gender": "W",
+        "unitPrice": 54.0,
+        "unitCost": 22.01,
+        "rentalRate": null
+      },
+      {
+        "sku": "APP-004-XS-AQU",
+        "size": "XS",
+        "color": "Aqua",
+        "gender": "W",
+        "unitPrice": 54.0,
+        "unitCost": 21.75,
+        "rentalRate": null
+      },
+      {
+        "sku": "APP-004-XS-BLA",
+        "size": "XS",
+        "color": "Black",
+        "gender": "W",
+        "unitPrice": 54.0,
+        "unitCost": 22.15,
+        "rentalRate": null
+      },
+      {
+        "sku": "APP-004-XS-TRO",
+        "size": "XS",
+        "color": "Tropical Print",
+        "gender": "W",
+        "unitPrice": 54.0,
+        "unitCost": 21.79,
+        "rentalRate": null
+      },
+      {
+        "sku": "APP-004-S-COR",
+        "size": "S",
+        "color": "Coral",
+        "gender": "W",
+        "unitPrice": 54.0,
+        "unitCost": 21.71,
+        "rentalRate": null
+      },
+      {
+        "sku": "APP-004-S-AQU",
+        "size": "S",
+        "color": "Aqua",
+        "gender": "W",
+        "unitPrice": 54.0,
+        "unitCost": 21.87,
+        "rentalRate": null
+      },
+      {
+        "sku": "APP-004-S-BLA",
+        "size": "S",
+        "color": "Black",
+        "gender": "W",
+        "unitPrice": 54.0,
+        "unitCost": 21.8,
+        "rentalRate": null
+      },
+      {
+        "sku": "APP-004-S-TRO",
+        "size": "S",
+        "color": "Tropical Print",
+        "gender": "W",
+        "unitPrice": 54.0,
+        "unitCost": 21.68,
+        "rentalRate": null
+      },
+      {
+        "sku": "APP-004-M-COR",
+        "size": "M",
+        "color": "Coral",
+        "gender": "W",
+        "unitPrice": 54.0,
+        "unitCost": 22.38,
+        "rentalRate": null
+      },
+      {
+        "sku": "APP-004-M-AQU",
+        "size": "M",
+        "color": "Aqua",
+        "gender": "W",
+        "unitPrice": 54.0,
+        "unitCost": 22.11,
+        "rentalRate": null
+      },
+      {
+        "sku": "APP-004-M-BLA",
+        "size": "M",
+        "color": "Black",
+        "gender": "W",
+        "unitPrice": 54.0,
+        "unitCost": 22.23,
+        "rentalRate": null
+      },
+      {
+        "sku": "APP-004-M-TRO",
+        "size": "M",
+        "color": "Tropical Print",
+        "gender": "W",
+        "unitPrice": 54.0,
+        "unitCost": 22.4,
+        "rentalRate": null
+      },
+      {
+        "sku": "APP-004-L-COR",
+        "size": "L",
+        "color": "Coral",
+        "gender": "W",
+        "unitPrice": 54.0,
+        "unitCost": 22.17,
+        "rentalRate": null
+      },
+      {
+        "sku": "APP-004-L-AQU",
+        "size": "L",
+        "color": "Aqua",
+        "gender": "W",
+        "unitPrice": 54.0,
+        "unitCost": 22.24,
+        "rentalRate": null
+      },
+      {
+        "sku": "APP-004-L-BLA",
+        "size": "L",
+        "color": "Black",
+        "gender": "W",
+        "unitPrice": 54.0,
+        "unitCost": 22.11,
+        "rentalRate": null
+      },
+      {
+        "sku": "APP-004-L-TRO",
+        "size": "L",
+        "color": "Tropical Print",
+        "gender": "W",
+        "unitPrice": 54.0,
+        "unitCost": 22.36,
+        "rentalRate": null
+      },
+      {
+        "sku": "APP-004-XL-COR",
+        "size": "XL",
+        "color": "Coral",
+        "gender": "W",
+        "unitPrice": 54.0,
+        "unitCost": 21.8,
+        "rentalRate": null
+      },
+      {
+        "sku": "APP-004-XL-AQU",
+        "size": "XL",
+        "color": "Aqua",
+        "gender": "W",
+        "unitPrice": 54.0,
+        "unitCost": 22.35,
+        "rentalRate": null
+      },
+      {
+        "sku": "APP-004-XL-BLA",
+        "size": "XL",
+        "color": "Black",
+        "gender": "W",
+        "unitPrice": 54.0,
+        "unitCost": 22.3,
+        "rentalRate": null
+      },
+      {
+        "sku": "APP-004-XL-TRO",
+        "size": "XL",
+        "color": "Tropical Print",
+        "gender": "W",
+        "unitPrice": 54.0,
+        "unitCost": 21.84,
+        "rentalRate": null
+      }
+    ],
+    "coverImage": {
+      "studio": "/images/products/APP-004-coral.jpg",
+      "lifestyle": "/images/products/APP-004-coral-life.jpg"
+    }
+  },
+  {
+    "sku": "APP-005",
+    "name": "One-Piece Swimsuit",
+    "category": "Apparel",
+    "subcategory": "Swimwear",
+    "availability": "Sale only",
+    "basePrice": 58.0,
+    "baseRentalRate": null,
+    "hasVariants": true,
+    "colorOptions": [
+      {
+        "color": "Black",
+        "colorSlug": "black",
+        "images": {
+          "studio": "/images/products/APP-005-black.jpg",
+          "lifestyle": "/images/products/APP-005-black-life.jpg"
+        }
+      },
+      {
+        "color": "Navy",
+        "colorSlug": "navy",
+        "images": {
+          "studio": "/images/products/APP-005-navy.jpg",
+          "lifestyle": "/images/products/APP-005-navy-life.jpg"
+        }
+      },
+      {
+        "color": "Coral",
+        "colorSlug": "coral",
+        "images": {
+          "studio": "/images/products/APP-005-coral.jpg",
+          "lifestyle": "/images/products/APP-005-coral-life.jpg"
+        }
+      }
+    ],
+    "variants": [
+      {
+        "sku": "APP-005-S-BLA",
+        "size": "S",
+        "color": "Black",
+        "gender": "W",
+        "unitPrice": 58.0,
+        "unitCost": 24.17,
+        "rentalRate": null
+      },
+      {
+        "sku": "APP-005-S-NAV",
+        "size": "S",
+        "color": "Navy",
+        "gender": "W",
+        "unitPrice": 58.0,
+        "unitCost": 24.2,
+        "rentalRate": null
+      },
+      {
+        "sku": "APP-005-S-COR",
+        "size": "S",
+        "color": "Coral",
+        "gender": "W",
+        "unitPrice": 58.0,
+        "unitCost": 24.21,
+        "rentalRate": null
+      },
+      {
+        "sku": "APP-005-M-BLA",
+        "size": "M",
+        "color": "Black",
+        "gender": "W",
+        "unitPrice": 58.0,
+        "unitCost": 23.66,
+        "rentalRate": null
+      },
+      {
+        "sku": "APP-005-M-NAV",
+        "size": "M",
+        "color": "Navy",
+        "gender": "W",
+        "unitPrice": 58.0,
+        "unitCost": 24.37,
+        "rentalRate": null
+      },
+      {
+        "sku": "APP-005-M-COR",
+        "size": "M",
+        "color": "Coral",
+        "gender": "W",
+        "unitPrice": 58.0,
+        "unitCost": 24.17,
+        "rentalRate": null
+      },
+      {
+        "sku": "APP-005-L-BLA",
+        "size": "L",
+        "color": "Black",
+        "gender": "W",
+        "unitPrice": 58.0,
+        "unitCost": 23.89,
+        "rentalRate": null
+      },
+      {
+        "sku": "APP-005-L-NAV",
+        "size": "L",
+        "color": "Navy",
+        "gender": "W",
+        "unitPrice": 58.0,
+        "unitCost": 24.18,
+        "rentalRate": null
+      },
+      {
+        "sku": "APP-005-L-COR",
+        "size": "L",
+        "color": "Coral",
+        "gender": "W",
+        "unitPrice": 58.0,
+        "unitCost": 24.38,
+        "rentalRate": null
+      },
+      {
+        "sku": "APP-005-XL-BLA",
+        "size": "XL",
+        "color": "Black",
+        "gender": "W",
+        "unitPrice": 58.0,
+        "unitCost": 24.1,
+        "rentalRate": null
+      },
+      {
+        "sku": "APP-005-XL-NAV",
+        "size": "XL",
+        "color": "Navy",
+        "gender": "W",
+        "unitPrice": 58.0,
+        "unitCost": 23.7,
+        "rentalRate": null
+      },
+      {
+        "sku": "APP-005-XL-COR",
+        "size": "XL",
+        "color": "Coral",
+        "gender": "W",
+        "unitPrice": 58.0,
+        "unitCost": 24.1,
+        "rentalRate": null
+      }
+    ],
+    "coverImage": {
+      "studio": "/images/products/APP-005-black.jpg",
+      "lifestyle": "/images/products/APP-005-black-life.jpg"
+    }
+  },
+  {
+    "sku": "APP-007",
+    "name": "Flip Flops Tropical",
+    "category": "Apparel",
+    "subcategory": "Footwear",
+    "availability": "Sale only",
+    "basePrice": 14.99,
+    "baseRentalRate": null,
+    "hasVariants": true,
+    "colorOptions": [
+      {
+        "color": "Tropical",
+        "colorSlug": "tropical",
+        "images": {
+          "studio": "/images/products/APP-007-m.jpg",
+          "lifestyle": "/images/products/APP-007-life.jpg"
+        }
+      }
+    ],
+    "variants": [
+      {
+        "sku": "APP-007-W6-7",
+        "size": "W6-7",
+        "color": "Tropical",
+        "gender": "W",
+        "unitPrice": 14.99,
+        "unitCost": 4.81,
+        "rentalRate": null
+      },
+      {
+        "sku": "APP-007-W8-9",
+        "size": "W8-9",
+        "color": "Tropical",
+        "gender": "W",
+        "unitPrice": 14.99,
+        "unitCost": 4.89,
+        "rentalRate": null
+      },
+      {
+        "sku": "APP-007-M9-10",
+        "size": "M9-10",
+        "color": "Tropical",
+        "gender": "M",
+        "unitPrice": 14.99,
+        "unitCost": 4.92,
+        "rentalRate": null
+      },
+      {
+        "sku": "APP-007-M11-12",
+        "size": "M11-12",
+        "color": "Tropical",
+        "gender": "M",
+        "unitPrice": 14.99,
+        "unitCost": 4.62,
+        "rentalRate": null
+      },
+      {
+        "sku": "APP-007-K2-4",
+        "size": "K2-4",
+        "color": "Tropical",
+        "gender": "U",
+        "unitPrice": 14.99,
+        "unitCost": 5.2,
+        "rentalRate": null
+      }
+    ],
+    "coverImage": {
+      "studio": "/images/products/APP-007-m.jpg",
+      "lifestyle": "/images/products/APP-007-life.jpg"
+    }
+  },
+  {
+    "sku": "SUR-004",
+    "name": "Surf Leash 8ft",
+    "category": "Surfing",
+    "subcategory": "Accessories",
+    "availability": "Sale only",
+    "basePrice": 22.5,
+    "baseRentalRate": null,
+    "hasVariants": true,
+    "colorOptions": [
+      {
+        "color": "Black",
+        "colorSlug": "black",
+        "images": {
+          "studio": "/images/products/SUR-004.jpg",
+          "lifestyle": "/images/products/SUR-004-life.jpg"
+        }
+      }
+    ],
+    "variants": [
+      {
+        "sku": "SUR-004-6FT",
+        "size": "6 ft",
+        "color": "Black",
+        "gender": "U",
+        "unitPrice": 22.5,
+        "unitCost": 7.66,
+        "rentalRate": null
+      },
+      {
+        "sku": "SUR-004-7FT",
+        "size": "7 ft",
+        "color": "Black",
+        "gender": "U",
+        "unitPrice": 22.5,
+        "unitCost": 7.82,
+        "rentalRate": null
+      },
+      {
+        "sku": "SUR-004-8FT",
+        "size": "8 ft",
+        "color": "Black",
+        "gender": "U",
+        "unitPrice": 22.5,
+        "unitCost": 8.16,
+        "rentalRate": null
+      },
+      {
+        "sku": "SUR-004-9FT",
+        "size": "9 ft",
+        "color": "Black",
+        "gender": "U",
+        "unitPrice": 22.5,
+        "unitCost": 7.64,
+        "rentalRate": null
+      }
+    ],
+    "coverImage": {
+      "studio": "/images/products/SUR-004.jpg",
+      "lifestyle": "/images/products/SUR-004-life.jpg"
+    }
+  },
+  {
+    "sku": "SUR-006",
+    "name": "Skim Board Pro",
+    "category": "Surfing",
+    "subcategory": "Skimboards",
+    "availability": "Both",
+    "basePrice": 89.0,
+    "baseRentalRate": 11.62,
+    "hasVariants": true,
+    "colorOptions": [
+      {
+        "color": "Tropical",
+        "colorSlug": "tropical",
+        "images": {
+          "studio": "/images/products/SUR-006.jpg",
+          "lifestyle": "/images/products/SUR-006-life.jpg"
+        }
+      }
+    ],
+    "variants": [
+      {
+        "sku": "SUR-006-YTH",
+        "size": "Youth",
+        "color": "Tropical",
+        "gender": "U",
+        "unitPrice": 89.0,
+        "unitCost": 38.3,
+        "rentalRate": 12.11
+      },
+      {
+        "sku": "SUR-006-ADL",
+        "size": "Adult",
+        "color": "Tropical",
+        "gender": "U",
+        "unitPrice": 89.0,
+        "unitCost": 38.21,
+        "rentalRate": 11.8
+      }
+    ],
+    "coverImage": {
+      "studio": "/images/products/SUR-006.jpg",
+      "lifestyle": "/images/products/SUR-006-life.jpg"
+    }
+  },
+  {
+    "sku": "KIT-002",
+    "name": "Kitesurf Harness",
+    "category": "Surfing",
+    "subcategory": "Kitesurf",
+    "availability": "Sale only",
+    "basePrice": 139.0,
+    "baseRentalRate": null,
+    "hasVariants": true,
+    "colorOptions": [
+      {
+        "color": "Black",
+        "colorSlug": "black",
+        "images": {
+          "studio": "/images/products/KIT-002.jpg",
+          "lifestyle": "/images/products/KIT-002-life.jpg"
+        }
+      }
+    ],
+    "variants": [
+      {
+        "sku": "KIT-002-S",
+        "size": "S",
+        "color": "Black",
+        "gender": "U",
+        "unitPrice": 139.0,
+        "unitCost": 54.8,
+        "rentalRate": null
+      },
+      {
+        "sku": "KIT-002-M",
+        "size": "M",
+        "color": "Black",
+        "gender": "U",
+        "unitPrice": 139.0,
+        "unitCost": 54.73,
+        "rentalRate": null
+      },
+      {
+        "sku": "KIT-002-L",
+        "size": "L",
+        "color": "Black",
+        "gender": "U",
+        "unitPrice": 139.0,
+        "unitCost": 55.36,
+        "rentalRate": null
+      },
+      {
+        "sku": "KIT-002-XL",
+        "size": "XL",
+        "color": "Black",
+        "gender": "U",
+        "unitPrice": 139.0,
+        "unitCost": 55.23,
+        "rentalRate": null
+      }
+    ],
+    "coverImage": {
+      "studio": "/images/products/KIT-002.jpg",
+      "lifestyle": "/images/products/KIT-002-life.jpg"
+    }
+  },
+  {
+    "sku": "APP-006",
+    "name": "UV Hat Wide Brim",
+    "category": "Apparel",
+    "subcategory": "Hats",
+    "availability": "Sale only",
+    "basePrice": 28.0,
+    "baseRentalRate": null,
+    "hasVariants": true,
+    "colorOptions": [
+      {
+        "color": "Natural",
+        "colorSlug": "natural",
+        "images": {
+          "studio": "/images/products/APP-006-natural.jpg",
+          "lifestyle": "/images/products/APP-006-natural-life.jpg"
+        }
+      },
+      {
+        "color": "Black",
+        "colorSlug": "black",
+        "images": {
+          "studio": "/images/products/APP-006-black.jpg",
+          "lifestyle": "/images/products/APP-006-black-life.jpg"
+        }
+      }
+    ],
+    "variants": [
+      {
+        "sku": "APP-006-SM-NAT",
+        "size": "S/M",
+        "color": "Natural",
+        "gender": "U",
+        "unitPrice": 28.0,
+        "unitCost": 11.28,
+        "rentalRate": null
+      },
+      {
+        "sku": "APP-006-SM-BLK",
+        "size": "S/M",
+        "color": "Black",
+        "gender": "U",
+        "unitPrice": 28.0,
+        "unitCost": 11.33,
+        "rentalRate": null
+      },
+      {
+        "sku": "APP-006-LXL-NAT",
+        "size": "L/XL",
+        "color": "Natural",
+        "gender": "U",
+        "unitPrice": 28.0,
+        "unitCost": 11.06,
+        "rentalRate": null
+      },
+      {
+        "sku": "APP-006-LXL-BLK",
+        "size": "L/XL",
+        "color": "Black",
+        "gender": "U",
+        "unitPrice": 28.0,
+        "unitCost": 10.97,
+        "rentalRate": null
+      }
+    ],
+    "coverImage": {
+      "studio": "/images/products/APP-006-natural.jpg",
+      "lifestyle": "/images/products/APP-006-natural-life.jpg"
+    }
+  },
+  {
+    "sku": "KIT-001",
+    "name": "Beginner Kitesurf Kit",
+    "category": "Surfing",
+    "subcategory": "Kitesurf",
+    "availability": "Sale only",
+    "basePrice": 1099.0,
+    "baseRentalRate": null,
+    "hasVariants": true,
+    "colorOptions": [
+      {
+        "color": "Red",
+        "colorSlug": "red",
+        "images": {
+          "studio": "/images/products/KIT-001-red.jpg",
+          "lifestyle": "/images/products/KIT-001-red-life.jpg"
+        }
+      },
+      {
+        "color": "Blue",
+        "colorSlug": "blue",
+        "images": {
+          "studio": "/images/products/KIT-001-blue.jpg",
+          "lifestyle": "/images/products/KIT-001-blue-life.jpg"
+        }
+      },
+      {
+        "color": "Yellow",
+        "colorSlug": "yellow",
+        "images": {
+          "studio": "/images/products/KIT-001-yellow.jpg",
+          "lifestyle": "/images/products/KIT-001-yellow-life.jpg"
+        }
+      }
+    ],
+    "variants": [
+      {
+        "sku": "KIT-001-7M",
+        "size": "7 m2",
+        "color": "Red",
+        "gender": "U",
+        "unitPrice": 1099.0,
+        "unitCost": 419.77,
+        "rentalRate": null
+      },
+      {
+        "sku": "KIT-001-9M",
+        "size": "9 m2",
+        "color": "Blue",
+        "gender": "U",
+        "unitPrice": 1099.0,
+        "unitCost": 420.02,
+        "rentalRate": null
+      },
+      {
+        "sku": "KIT-001-12M",
+        "size": "12 m2",
+        "color": "Yellow",
+        "gender": "U",
+        "unitPrice": 1099.0,
+        "unitCost": 419.83,
+        "rentalRate": null
+      }
+    ],
+    "coverImage": {
+      "studio": "/images/products/KIT-001-red.jpg",
+      "lifestyle": "/images/products/KIT-001-red-life.jpg"
+    }
+  },
+  {
+    "sku": "BCH-009",
+    "name": "Polarized Sunglasses",
+    "category": "Beach Essentials",
+    "subcategory": "Eyewear",
+    "availability": "Sale only",
+    "basePrice": 39.99,
+    "baseRentalRate": null,
+    "hasVariants": true,
+    "colorOptions": [
+      {
+        "color": "Aviator/Black",
+        "colorSlug": "aviator-black",
+        "images": {
+          "studio": "/images/products/BCH-009-aviator-black-m.jpg",
+          "lifestyle": "/images/products/BCH-009-aviator-black-life.jpg"
+        }
+      },
+      {
+        "color": "Aviator/Gold",
+        "colorSlug": "aviator-gold",
+        "images": {
+          "studio": "/images/products/BCH-009-aviator-gold-u.jpg",
+          "lifestyle": "/images/products/BCH-009-aviator-gold-life.jpg"
+        }
+      },
+      {
+        "color": "Wayfarer/Black",
+        "colorSlug": "wayfarer-black",
+        "images": {
+          "studio": "/images/products/BCH-009-wayfarer-black-u.jpg",
+          "lifestyle": "/images/products/BCH-009-wayfarer-black-life.jpg"
+        }
+      },
+      {
+        "color": "Wayfarer/Tortoise",
+        "colorSlug": "wayfarer-tortoise",
+        "images": {
+          "studio": "/images/products/BCH-009-wayfarer-tortoise-u.jpg",
+          "lifestyle": "/images/products/BCH-009-wayfarer-tortoise-life.jpg"
+        }
+      },
+      {
+        "color": "Sport/Black",
+        "colorSlug": "sport-black",
+        "images": {
+          "studio": "/images/products/BCH-009-sport-black-m.jpg",
+          "lifestyle": "/images/products/BCH-009-sport-black-life.jpg"
+        }
+      },
+      {
+        "color": "Cat-Eye/Tortoise",
+        "colorSlug": "cat-eye-tortoise",
+        "images": {
+          "studio": "/images/products/BCH-009-cat-eye-tortoise-w.jpg",
+          "lifestyle": "/images/products/BCH-009-cat-eye-tortoise-life.jpg"
+        }
+      }
+    ],
+    "variants": [
+      {
+        "sku": "BCH-009-AVI-BLK",
+        "size": "One Size",
+        "color": "Aviator/Black",
+        "gender": "M",
+        "unitPrice": 39.99,
+        "unitCost": 14.39,
+        "rentalRate": null
+      },
+      {
+        "sku": "BCH-009-AVI-GLD",
+        "size": "One Size",
+        "color": "Aviator/Gold",
+        "gender": "U",
+        "unitPrice": 39.99,
+        "unitCost": 13.74,
+        "rentalRate": null
+      },
+      {
+        "sku": "BCH-009-WAY-BLK",
+        "size": "One Size",
+        "color": "Wayfarer/Black",
+        "gender": "U",
+        "unitPrice": 39.99,
+        "unitCost": 14.21,
+        "rentalRate": null
+      },
+      {
+        "sku": "BCH-009-WAY-TOR",
+        "size": "One Size",
+        "color": "Wayfarer/Tortoise",
+        "gender": "U",
+        "unitPrice": 39.99,
+        "unitCost": 14.28,
+        "rentalRate": null
+      },
+      {
+        "sku": "BCH-009-SPT-BLK",
+        "size": "One Size",
+        "color": "Sport/Black",
+        "gender": "M",
+        "unitPrice": 39.99,
+        "unitCost": 14.31,
+        "rentalRate": null
+      },
+      {
+        "sku": "BCH-009-CAT-TOR",
+        "size": "One Size",
+        "color": "Cat-Eye/Tortoise",
+        "gender": "W",
+        "unitPrice": 39.99,
+        "unitCost": 14.09,
+        "rentalRate": null
+      }
+    ],
+    "coverImage": {
+      "studio": "/images/products/BCH-009-aviator-black-m.jpg",
+      "lifestyle": "/images/products/BCH-009-aviator-black-life.jpg"
+    }
+  },
+  {
+    "sku": "BCH-011",
+    "name": "Reef Walker Water Shoes",
+    "category": "Beach Essentials",
+    "subcategory": "Footwear",
+    "availability": "Both",
+    "basePrice": 38.0,
+    "baseRentalRate": 3.07,
+    "hasVariants": true,
+    "colorOptions": [
+      {
+        "color": "Black",
+        "colorSlug": "black",
+        "images": {
+          "studio": "/images/products/BCH-011-black-m.jpg",
+          "lifestyle": "/images/products/BCH-011-black-life.jpg"
+        }
+      },
+      {
+        "color": "Aqua",
+        "colorSlug": "aqua",
+        "images": {
+          "studio": "/images/products/BCH-011-aqua-u.jpg",
+          "lifestyle": "/images/products/BCH-011-aqua-life.jpg"
+        }
+      }
+    ],
+    "variants": [
+      {
+        "sku": "BCH-011-W6-7",
+        "size": "W6-7",
+        "color": "Black",
+        "gender": "W",
+        "unitPrice": 38.0,
+        "unitCost": 15.82,
+        "rentalRate": 2.74
+      },
+      {
+        "sku": "BCH-011-W8-9",
+        "size": "W8-9",
+        "color": "Black",
+        "gender": "W",
+        "unitPrice": 38.0,
+        "unitCost": 15.72,
+        "rentalRate": 2.62
+      },
+      {
+        "sku": "BCH-011-M9-10",
+        "size": "M9-10",
+        "color": "Black",
+        "gender": "M",
+        "unitPrice": 38.0,
+        "unitCost": 15.8,
+        "rentalRate": 2.5
+      },
+      {
+        "sku": "BCH-011-M11-12",
+        "size": "M11-12",
+        "color": "Black",
+        "gender": "M",
+        "unitPrice": 38.0,
+        "unitCost": 15.89,
+        "rentalRate": 2.74
+      },
+      {
+        "sku": "BCH-011-K2-4",
+        "size": "Kids 2-4",
+        "color": "Aqua",
+        "gender": "U",
+        "unitPrice": 38.0,
+        "unitCost": 15.63,
+        "rentalRate": 2.72
+      }
+    ],
+    "coverImage": {
+      "studio": "/images/products/BCH-011-black-m.jpg",
+      "lifestyle": "/images/products/BCH-011-black-life.jpg"
+    }
+  },
+  {
+    "sku": "SNK-005",
+    "name": "Dry-Top Snorkel",
+    "category": "Snorkel & Dive",
+    "subcategory": "Snorkels",
+    "availability": "Both",
+    "basePrice": 28.5,
+    "baseRentalRate": 3.02,
+    "hasVariants": false,
+    "colorOptions": [],
+    "variants": [
+      {
+        "sku": "SNK-005",
+        "size": null,
+        "color": null,
+        "gender": null,
+        "unitPrice": 28.5,
+        "unitCost": 11.91,
+        "rentalRate": 3.02
+      }
+    ],
+    "coverImage": {
+      "studio": "/images/products/SNK-005.jpg",
+      "lifestyle": "/images/products/SNK-005-life.jpg"
+    }
+  },
+  {
+    "sku": "BCH-002",
+    "name": "Beach Ball Inflatable",
+    "category": "Beach Essentials",
+    "subcategory": "Kids",
+    "availability": "Both",
+    "basePrice": 6.99,
+    "baseRentalRate": 1.7,
+    "hasVariants": false,
+    "colorOptions": [],
+    "variants": [
+      {
+        "sku": "BCH-002",
+        "size": null,
+        "color": null,
+        "gender": null,
+        "unitPrice": 6.99,
+        "unitCost": 1.8,
+        "rentalRate": 1.7
+      }
+    ],
+    "coverImage": {
+      "studio": "/images/products/BCH-002.jpg",
+      "lifestyle": "/images/products/BCH-002-life.jpg"
+    }
+  },
+  {
+    "sku": "BCH-001",
+    "name": "Sand Shovel & Bucket Set",
+    "category": "Beach Essentials",
+    "subcategory": "Kids",
+    "availability": "Both",
+    "basePrice": 14.99,
+    "baseRentalRate": 2.05,
+    "hasVariants": false,
+    "colorOptions": [],
+    "variants": [
+      {
+        "sku": "BCH-001",
+        "size": null,
+        "color": null,
+        "gender": null,
+        "unitPrice": 14.99,
+        "unitCost": 5.94,
+        "rentalRate": 2.05
+      }
+    ],
+    "coverImage": {
+      "studio": "/images/products/BCH-001.jpg",
+      "lifestyle": "/images/products/BCH-001-life.jpg"
+    }
+  },
+  {
+    "sku": "BCH-005",
+    "name": "Beach Umbrella 7ft",
+    "category": "Beach Essentials",
+    "subcategory": "Shade",
+    "availability": "Both",
+    "basePrice": 54.0,
+    "baseRentalRate": 7.74,
+    "hasVariants": false,
+    "colorOptions": [],
+    "variants": [
+      {
+        "sku": "BCH-005",
+        "size": null,
+        "color": null,
+        "gender": null,
+        "unitPrice": 54.0,
+        "unitCost": 21.96,
+        "rentalRate": 7.74
+      }
+    ],
+    "coverImage": {
+      "studio": "/images/products/BCH-005.jpg",
+      "lifestyle": "/images/products/BCH-005-life.jpg"
+    }
+  },
+  {
+    "sku": "BCH-007",
+    "name": "Reef-Safe Sunscreen SPF50",
+    "category": "Beach Essentials",
+    "subcategory": "Sun Care",
+    "availability": "Sale only",
+    "basePrice": 19.99,
+    "baseRentalRate": null,
+    "hasVariants": false,
+    "colorOptions": [],
+    "variants": [
+      {
+        "sku": "BCH-007",
+        "size": null,
+        "color": null,
+        "gender": null,
+        "unitPrice": 19.99,
+        "unitCost": 7.68,
+        "rentalRate": null
+      }
+    ],
+    "coverImage": {
+      "studio": "/images/products/BCH-007.jpg",
+      "lifestyle": "/images/products/BCH-007-life.jpg"
+    }
+  },
+  {
+    "sku": "FSH-001",
+    "name": "Saltwater Spinning Rod 7ft",
+    "category": "Fishing",
+    "subcategory": "Rods",
+    "availability": "Both",
+    "basePrice": 98.0,
+    "baseRentalRate": 7.65,
+    "hasVariants": false,
+    "colorOptions": [],
+    "variants": [
+      {
+        "sku": "FSH-001",
+        "size": null,
+        "color": null,
+        "gender": null,
+        "unitPrice": 98.0,
+        "unitCost": 41.68,
+        "rentalRate": 7.65
+      }
+    ],
+    "coverImage": {
+      "studio": "/images/products/FSH-001.jpg",
+      "lifestyle": "/images/products/FSH-001-life.jpg"
+    }
+  },
+  {
+    "sku": "FSH-003",
+    "name": "Spinning Reel 4000",
+    "category": "Fishing",
+    "subcategory": "Reels",
+    "availability": "Sale only",
+    "basePrice": 84.0,
+    "baseRentalRate": null,
+    "hasVariants": false,
+    "colorOptions": [],
+    "variants": [
+      {
+        "sku": "FSH-003",
+        "size": null,
+        "color": null,
+        "gender": null,
+        "unitPrice": 84.0,
+        "unitCost": 36.01,
+        "rentalRate": null
+      }
+    ],
+    "coverImage": {
+      "studio": "/images/products/FSH-003.jpg",
+      "lifestyle": "/images/products/FSH-003-life.jpg"
+    }
+  },
+  {
+    "sku": "FSH-005",
+    "name": "Live Bait — Shrimp (lb)",
+    "category": "Fishing",
+    "subcategory": "Bait",
+    "availability": "Sale only",
+    "basePrice": 6.99,
+    "baseRentalRate": null,
+    "hasVariants": false,
+    "colorOptions": [],
+    "variants": [
+      {
+        "sku": "FSH-005",
+        "size": null,
+        "color": null,
+        "gender": null,
+        "unitPrice": 6.99,
+        "unitCost": 2.22,
+        "rentalRate": null
+      }
+    ],
+    "coverImage": {
+      "studio": "/images/products/FSH-005.jpg",
+      "lifestyle": "/images/products/FSH-005-life.jpg"
+    }
+  },
+  {
+    "sku": "FSH-006",
+    "name": "Live Bait — Squid (lb)",
+    "category": "Fishing",
+    "subcategory": "Bait",
+    "availability": "Sale only",
+    "basePrice": 7.99,
+    "baseRentalRate": null,
+    "hasVariants": false,
+    "colorOptions": [],
+    "variants": [
+      {
+        "sku": "FSH-006",
+        "size": null,
+        "color": null,
+        "gender": null,
+        "unitPrice": 7.99,
+        "unitCost": 3.21,
+        "rentalRate": null
+      }
+    ],
+    "coverImage": {
+      "studio": "/images/products/FSH-006.jpg",
+      "lifestyle": "/images/products/FSH-006-life.jpg"
+    }
+  },
+  {
+    "sku": "BCH-006",
+    "name": "Pop-Up Beach Tent",
+    "category": "Beach Essentials",
+    "subcategory": "Shade",
+    "availability": "Both",
+    "basePrice": 89.0,
+    "baseRentalRate": 10.4,
+    "hasVariants": false,
+    "colorOptions": [],
+    "variants": [
+      {
+        "sku": "BCH-006",
+        "size": null,
+        "color": null,
+        "gender": null,
+        "unitPrice": 89.0,
+        "unitCost": 37.74,
+        "rentalRate": 10.4
+      }
+    ],
+    "coverImage": {
+      "studio": "/images/products/BCH-006.jpg",
+      "lifestyle": "/images/products/BCH-006-life.jpg"
+    }
+  },
+  {
+    "sku": "BCH-008",
+    "name": "After-Sun Aloe Gel",
+    "category": "Beach Essentials",
+    "subcategory": "Sun Care",
+    "availability": "Sale only",
+    "basePrice": 13.99,
+    "baseRentalRate": null,
+    "hasVariants": false,
+    "colorOptions": [],
+    "variants": [
+      {
+        "sku": "BCH-008",
+        "size": null,
+        "color": null,
+        "gender": null,
+        "unitPrice": 13.99,
+        "unitCost": 5.31,
+        "rentalRate": null
+      }
+    ],
+    "coverImage": {
+      "studio": "/images/products/BCH-008.jpg",
+      "lifestyle": "/images/products/BCH-008-life.jpg"
+    }
+  },
+  {
+    "sku": "FSH-007",
+    "name": "Lure Pack Tropical (12pc)",
+    "category": "Fishing",
+    "subcategory": "Tackle",
+    "availability": "Sale only",
+    "basePrice": 22.99,
+    "baseRentalRate": null,
+    "hasVariants": false,
+    "colorOptions": [],
+    "variants": [
+      {
+        "sku": "FSH-007",
+        "size": null,
+        "color": null,
+        "gender": null,
+        "unitPrice": 22.99,
+        "unitCost": 9.38,
+        "rentalRate": null
+      }
+    ],
+    "coverImage": {
+      "studio": "/images/products/FSH-007.jpg",
+      "lifestyle": "/images/products/FSH-007-life.jpg"
+    }
+  },
+  {
+    "sku": "FSH-008",
+    "name": "Cast Net 8ft",
+    "category": "Fishing",
+    "subcategory": "Nets",
+    "availability": "Sale only",
+    "basePrice": 45.0,
+    "baseRentalRate": null,
+    "hasVariants": false,
+    "colorOptions": [],
+    "variants": [
+      {
+        "sku": "FSH-008",
+        "size": null,
+        "color": null,
+        "gender": null,
+        "unitPrice": 45.0,
+        "unitCost": 17.92,
+        "rentalRate": null
+      }
+    ],
+    "coverImage": {
+      "studio": "/images/products/FSH-008.jpg",
+      "lifestyle": "/images/products/FSH-008-life.jpg"
+    }
+  },
+  {
+    "sku": "SUR-001",
+    "name": "7'2 Funboard Surfboard",
+    "category": "Surfing",
+    "subcategory": "Surfboards",
+    "availability": "Both",
+    "basePrice": 449.0,
+    "baseRentalRate": 25.42,
+    "hasVariants": false,
+    "colorOptions": [],
+    "variants": [
+      {
+        "sku": "SUR-001",
+        "size": null,
+        "color": null,
+        "gender": null,
+        "unitPrice": 449.0,
+        "unitCost": 180.22,
+        "rentalRate": 25.42
+      }
+    ],
+    "coverImage": {
+      "studio": "/images/products/SUR-001.jpg",
+      "lifestyle": "/images/products/SUR-001-life.jpg"
+    }
+  },
+  {
+    "sku": "SUR-002",
+    "name": "9'0 Longboard Surfboard",
+    "category": "Surfing",
+    "subcategory": "Surfboards",
+    "availability": "Both",
+    "basePrice": 599.0,
+    "baseRentalRate": 29.91,
+    "hasVariants": false,
+    "colorOptions": [],
+    "variants": [
+      {
+        "sku": "SUR-002",
+        "size": null,
+        "color": null,
+        "gender": null,
+        "unitPrice": 599.0,
+        "unitCost": 239.79,
+        "rentalRate": 29.91
+      }
+    ],
+    "coverImage": {
+      "studio": "/images/products/SUR-002.jpg",
+      "lifestyle": "/images/products/SUR-002-life.jpg"
+    }
+  },
+  {
+    "sku": "FSH-002",
+    "name": "Telescopic Travel Rod",
+    "category": "Fishing",
+    "subcategory": "Rods",
+    "availability": "Both",
+    "basePrice": 64.99,
+    "baseRentalRate": 6.08,
+    "hasVariants": false,
+    "colorOptions": [],
+    "variants": [
+      {
+        "sku": "FSH-002",
+        "size": null,
+        "color": null,
+        "gender": null,
+        "unitPrice": 64.99,
+        "unitCost": 27.83,
+        "rentalRate": 6.08
+      }
+    ],
+    "coverImage": {
+      "studio": "/images/products/FSH-002.jpg",
+      "lifestyle": "/images/products/FSH-002-life.jpg"
+    }
+  },
+  {
+    "sku": "FSH-004",
+    "name": "Tackle Box Deluxe",
+    "category": "Fishing",
+    "subcategory": "Tackle",
+    "availability": "Sale only",
+    "basePrice": 49.99,
+    "baseRentalRate": null,
+    "hasVariants": false,
+    "colorOptions": [],
+    "variants": [
+      {
+        "sku": "FSH-004",
+        "size": null,
+        "color": null,
+        "gender": null,
+        "unitPrice": 49.99,
+        "unitCost": 22.14,
+        "rentalRate": null
+      }
+    ],
+    "coverImage": {
+      "studio": "/images/products/FSH-004.jpg",
+      "lifestyle": "/images/products/FSH-004-life.jpg"
+    }
+  },
+  {
+    "sku": "SUR-005",
+    "name": "Surf Wax Tropical",
+    "category": "Surfing",
+    "subcategory": "Accessories",
+    "availability": "Sale only",
+    "basePrice": 5.99,
+    "baseRentalRate": null,
+    "hasVariants": false,
+    "colorOptions": [],
+    "variants": [
+      {
+        "sku": "SUR-005",
+        "size": null,
+        "color": null,
+        "gender": null,
+        "unitPrice": 5.99,
+        "unitCost": 1.85,
+        "rentalRate": null
+      }
+    ],
+    "coverImage": {
+      "studio": "/images/products/SUR-005.jpg",
+      "lifestyle": "/images/products/SUR-005-life.jpg"
+    }
+  },
+  {
+    "sku": "BCH-010",
+    "name": "Waterproof Phone Pouch",
+    "category": "Beach Essentials",
+    "subcategory": "Accessories",
+    "availability": "Sale only",
+    "basePrice": 12.99,
+    "baseRentalRate": null,
+    "hasVariants": false,
+    "colorOptions": [],
+    "variants": [
+      {
+        "sku": "BCH-010",
+        "size": null,
+        "color": null,
+        "gender": null,
+        "unitPrice": 12.99,
+        "unitCost": 4.11,
+        "rentalRate": null
+      }
+    ],
+    "coverImage": {
+      "studio": "/images/products/BCH-010.jpg",
+      "lifestyle": "/images/products/BCH-010-life.jpg"
+    }
+  }
+]
