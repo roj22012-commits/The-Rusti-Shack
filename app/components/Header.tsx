@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { getCategories, categorySlug } from "@/lib/products";
+import CartIcon from "./CartIcon";
 
 export default function Header() {
   const categories = getCategories();
@@ -12,13 +13,19 @@ export default function Header() {
             The Rusti Shack
           </span>
         </Link>
-        <nav className="hidden gap-5 text-sm font-medium text-foreground/80 md:flex">
-          {categories.map((c) => (
-            <a key={c} href={`/#${categorySlug(c)}`} className="hover:text-ocean-dark">
-              {c}
-            </a>
-          ))}
-        </nav>
+        <div className="flex items-center gap-5">
+          <nav className="hidden items-center gap-5 text-sm font-medium text-foreground/80 md:flex">
+            {categories.map((c) => (
+              <a key={c} href={`/#${categorySlug(c)}`} className="hover:text-ocean-dark">
+                {c}
+              </a>
+            ))}
+            <Link href="/about" className="hover:text-ocean-dark">
+              About Apo Island
+            </Link>
+          </nav>
+          <CartIcon />
+        </div>
       </div>
     </header>
   );
