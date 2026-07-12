@@ -4,8 +4,9 @@ import { notFound } from "next/navigation";
 import { getAllProducts, getProductBySku } from "@/lib/products";
 import ProductPurchasePanel from "@/app/components/ProductPurchasePanel";
 
-export function generateStaticParams() {
-  return getAllProducts().map((p) => ({ sku: p.sku }));
+export async function generateStaticParams() {
+  const products = await getAllProducts();
+  return products.map((p) => ({ sku: p.sku }));
 }
 
 export default async function ProductPage({
@@ -14,7 +15,7 @@ export default async function ProductPage({
   params: Promise<{ sku: string }>;
 }) {
   const { sku } = await params;
-  const product = getProductBySku(sku);
+  const product = await getProductBySku(sku);
   if (!product) notFound();
 
   const studio = product.coverImage.studio ?? product.coverImage.lifestyle;

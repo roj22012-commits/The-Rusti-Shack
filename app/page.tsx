@@ -1,9 +1,10 @@
 import Image from "next/image";
 import ProductCard from "./components/ProductCard";
-import { getCategories, getProductsByCategory, categorySlug } from "@/lib/products";
+import { getCategories, getAllProducts, categorySlug } from "@/lib/products";
 
-export default function Home() {
+export default async function Home() {
   const categories = getCategories();
+  const allProducts = await getAllProducts();
 
   return (
     <div className="flex flex-col">
@@ -33,7 +34,7 @@ export default function Home() {
 
       <div className="mx-auto w-full max-w-6xl px-4 py-12 sm:px-6">
         {categories.map((category) => {
-          const items = getProductsByCategory(category);
+          const items = allProducts.filter((p) => p.category === category);
           return (
             <section key={category} id={categorySlug(category)} className="scroll-mt-20 py-8">
               <div className="mb-5 flex items-baseline justify-between">

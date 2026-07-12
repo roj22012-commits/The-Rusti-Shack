@@ -37,7 +37,8 @@ export default function CheckoutPage() {
   const { items, subtotal } = useCart();
   const [form, setForm] = useState<FormState>(initialForm);
   const [errors, setErrors] = useState<Partial<Record<keyof FormState, string>>>({});
-  const [validated, setValidated] = useState(false);
+  const [submitting, setSubmitting] = useState(false);
+  const [submitError, setSubmitError] = useState<string | null>(null);
 
   const total = subtotal + SHIPPING_FEE;
 
@@ -60,9 +61,30 @@ export default function CheckoutPage() {
     return Object.keys(next).length === 0;
   }
 
-  function handleSubmit(e: React.FormEvent) {
+  async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
-    if (validate()) setValidated(true);
+    setSubmitError(null);
+    if (!validate()) return;
+
+    setSubmitting(true);
+    try {
+      const res = await fetch("/api/checkout", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          items: items.map((i) => ({ sku: i.sku, qty: i.qty })),
+          customer: form,
+        }),
+      });
+      const data = await res.json();
+      if (!res.ok || !data.url) {
+        throw new Error(data.error ?? "Couldn't start checkout. Try again.");
+      }
+      window.location.href = data.url;
+    } catch (err) {
+      setSubmitError(err instanceof Error ? err.message : "Something went wrong.");
+      setSubmitting(false);
+    }
   }
 
   if (items.length === 0) {
@@ -175,21 +197,16 @@ export default function CheckoutPage() {
             Join Rusti&apos;s loyalty list
           </label>
 
-          {validated ? (
-            <div className="rounded-xl bg-ocean-dark/10 p-4 text-sm text-ocean-dark">
-              Your details look good. Payment isn&apos;t wired up yet — that&apos;s
-              the next piece of the build (Stripe, in test mode). Once it&apos;s
-              connected, this button will send you to a secure Stripe payment
-              page.
-            </div>
-          ) : (
-            <button
-              type="submit"
-              className="w-full rounded-full bg-ocean-dark px-6 py-3 text-sm font-semibold text-white"
-            >
-              Continue to payment
-            </button>
+          {submitError && (
+            <p className="text-sm text-coral">{submitError}</p>
           )}
+          <button
+            type="submit"
+            disabled={submitting}
+            className="w-full rounded-full bg-ocean-dark px-6 py-3 text-sm font-semibold text-white disabled:opacity-60"
+          >
+            {submitting ? "Redirecting to payment..." : "Continue to payment"}
+          </button>
         </form>
 
         <div className="h-fit rounded-2xl bg-sand/60 p-5">
