@@ -65,12 +65,17 @@ Rusti's own words, from her emails, are the spec:
   an order. Web `CustomerID`/`OrderID` values come from
   `next_web_customer_id()`/`next_web_order_id()`, reserved ranges above
   Rusti's existing highest IDs so they never collide with her in-store data.
-- `/manager` (Part 6.8) is the private dashboard: 7-day orders/revenue, best
-  seller, a recent-orders table, and a sales CSV download. No nav link
-  anywhere — it's reached only by typing the URL. Gated by `MANAGER_PASSWORD`
-  checked server-side (`lib/manager-auth.ts`, HMAC-signed session cookie,
-  `httpOnly`); the page itself and its `/api/manager/*` routes read/write
-  Supabase through the service-role key, never the anon key.
+- `/management` (Parts 6.8 and C) is the private back office: 7-day
+  orders/revenue, best seller, a recent-orders table, sales CSV download,
+  and (Part C) the fuller BI suite — historicals, forecasts, inventory
+  reorder points, exports. No nav link anywhere — it's reached only by
+  typing the URL. Password is the class-standard `RustiS2026` (env var
+  `MANAGER_PASSWORD`, exact value required for grading), checked
+  server-side (`lib/manager-auth.ts`, HMAC-signed session cookie,
+  `httpOnly`). The page and its `/api/manager/*` routes read/write Supabase
+  through the service-role key, never the anon key. Internal API routes
+  keep the `/api/manager/*` path for historical reasons; only the page URL
+  (`/management`) is graded.
 
 ## Process
 

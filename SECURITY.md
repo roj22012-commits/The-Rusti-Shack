@@ -31,13 +31,19 @@ lock if you do it before the code, not after.
 6. **Every write to the database goes through server-side code**, never
    directly from client JavaScript with elevated privileges. The browser
    talks to your API routes; your API routes talk to Supabase.
-7. **The manager page (`/manager`) is not linked from anywhere on the
-   site.** It is reached only by typing the address directly. Being
+7. **The management page (`/management`) is not linked from anywhere on
+   the site.** It is reached only by typing the address directly. Being
    unlisted is not the real lock — the password check on the server is.
-8. **The manager password is checked server-side**, before any manager
+8. **The management password is checked server-side**, before any manager
    data is sent to the browser. There is nothing to see in page source or
-   dev tools until the password is verified. It is a long, unique password
-   stored as an environment variable, never hard-coded.
+   dev tools until the password is verified. It's stored as an environment
+   variable, never hard-coded. Note: the value itself (`RustiS2026`) is a
+   fixed, class-standard password required so instructors can grade every
+   student's site the same way — it is not the strong random secret the
+   rest of this document otherwise calls for. That's an explicit, known
+   trade-off for this assignment, not a security recommendation; a real
+   production version of this store should use a long, unique, rotatable
+   password (or real per-user auth) instead.
 9. **All user-supplied input is validated on the server**, not just in the
    browser form: required fields, plausible email format, reasonable
    lengths. Client-side validation is a courtesy to the shopper, not a
@@ -87,9 +93,9 @@ lock if you do it before the code, not after.
 - No card numbers ever touch this codebase — Stripe Checkout's hosted page
   handles that entirely.
 
-## 5. The manager page
+## 5. The management back office
 
-- Route: `/manager`. No nav link, no sitemap entry.
+- Route: `/management`. No nav link, no sitemap entry.
 - Gate is a single shared password (env var), checked in server-side code
   (a Server Action or Route Handler), before any dashboard data or the CSV
   export is returned.
