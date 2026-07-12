@@ -56,6 +56,21 @@ Rusti's own words, from her emails, are the spec:
   `Standalone` rows are the actual purchasable SKUs.
 - Cart must capture the exact variant SKU (size + color), not just the
   product family.
+- Checkout (`/api/checkout`) always re-derives prices server-side from the
+  catalog before creating a Stripe test-mode Checkout Session — never trusts
+  a price sent from the browser. `/order-confirmation` verifies payment with
+  Stripe before writing anything to Supabase, reuses a returning customer's
+  `CustomerID` by email, and is idempotent per Stripe session ID
+  (`stripe_sessions` table) so a refreshed or replayed URL can't double-write
+  an order. Web `CustomerID`/`OrderID` values come from
+  `next_web_customer_id()`/`next_web_order_id()`, reserved ranges above
+  Rusti's existing highest IDs so they never collide with her in-store data.
+- `/manager` (Part 6.8) is the private dashboard: 7-day orders/revenue, best
+  seller, a recent-orders table, and a sales CSV download. No nav link
+  anywhere — it's reached only by typing the URL. Gated by `MANAGER_PASSWORD`
+  checked server-side (`lib/manager-auth.ts`, HMAC-signed session cookie,
+  `httpOnly`); the page itself and its `/api/manager/*` routes read/write
+  Supabase through the service-role key, never the anon key.
 
 ## Process
 
