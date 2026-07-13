@@ -23,9 +23,11 @@ import RentalsSection from "./sections/RentalsSection";
 import PromotionsSection from "./sections/PromotionsSection";
 import StaffSection from "./sections/StaffSection";
 import SeasonalitySection from "./sections/SeasonalitySection";
+import AssistantSection from "./sections/AssistantSection";
 
 const TABS = [
   "Overview",
+  "AI Assistant",
   "Historicals & Forecast",
   "Inventory",
   "Products",
@@ -88,6 +90,7 @@ export default function Dashboard(props: {
 
       <div className="mt-6">
         {tab === "Overview" && <OverviewSection stats={props.stats} recentOrders={props.recentOrders} />}
+        {tab === "AI Assistant" && <AssistantSection />}
         {tab === "Historicals & Forecast" && <HistoricalsForecastSection monthly={props.monthly} selectedYear={year} />}
         {tab === "Inventory" && <InventorySection rows={props.inventory} methodology={props.reorderMethodology} />}
         {tab === "Products" && <ProductsSection products={props.products} />}

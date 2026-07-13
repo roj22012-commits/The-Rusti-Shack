@@ -104,11 +104,24 @@ Rusti's own words, from her emails, are the spec:
   × 14-day assumed lead time, plus a 1.65σ safety buffer for ~95% service
   level. Chart titles are computed from the data, not hardcoded, and
   change when the year slicer changes — see each section's `title`/`useMemo`.
-- Part D (AI assistant) is not yet built. When it is: management-facing
-  only, inside `/management`, never on the public storefront; read-only
-  tools grounded in the shop's own data; de-identify customer data before
-  the model sees it; cap chart items at ~15; see the (forthcoming)
-  AI-MANAGEMENT-SECURITY-API.md for the full guardrails once written.
+- Part D AI assistant (`AI Assistant` tab in `/management`, `lib/gemini.ts`,
+  `lib/assistant-context.ts`, `app/api/manager/assistant/route.ts`) is
+  management-facing only, sits behind the same session cookie as the rest
+  of `/management`, and is read-only by construction — it has no tool that
+  can write anything. It never touches the open web: every answer is
+  generated from one pre-fetched, pre-aggregated JSON context bundle
+  (built server-side from the same `lib/analytics-data.ts` functions the
+  dashboard charts use), never a live query the model controls. Customer
+  data is rolled up into segment/country counts before the model ever
+  sees it — no names, emails, phones, or addresses exist anywhere in that
+  bundle. Charts are structured data (type/title/data points) rendered by
+  `AssistantChart.tsx` via recharts, never model-drawn SVG, and are capped
+  at 15 points. There's a daily call cap (`DAILY_CALL_CAP` in the route,
+  currently in-memory — would need to move to a Supabase-backed counter
+  for a real production deployment, since in-memory resets on cold start).
+  Uses `gemini-flash-latest` with `thinkingBudget: 0` (extended thinking
+  ate the whole output token budget on structured-output calls without
+  this) and a JSON `responseSchema` so output is always parseable.
 
 ## Process
 
