@@ -76,6 +76,39 @@ Rusti's own words, from her emails, are the spec:
   through the service-role key, never the anon key. Internal API routes
   keep the `/api/manager/*` path for historical reasons; only the page URL
   (`/management`) is graded.
+- Full historical dataset (both workbooks — all sheets, ~80k rows) is
+  loaded into the *same* live tables the web checkout writes to
+  (`supabase/migration_002_historical_schema.sql` for the schema,
+  `scripts/load_historical_data.py` to load it), so history and new web
+  orders are one unified dataset, per the source data's own
+  DataDictionary note. Web-reserved ID ranges (`C1xxxx`/`ORD1xxxxx`) sit
+  safely above her historical IDs (`C0xxxx`/`ORD0xxxxx`).
+- Analytics for `/management`'s BI suite read from pre-aggregated SQL
+  views (`supabase/migration_003_analytics_views.sql`:
+  `monthly_performance`, `product_performance`, `daily_sku_sales`,
+  `customer_summary`, `rental_vs_sales_by_sku_month`, `promo_performance`,
+  `staff_performance`, `seasonal_performance`) rather than pulling raw
+  rows into Node — the dataset is too large (40k+ order lines) to
+  aggregate client-side on every page load. Views are explicitly
+  `revoke`d from `anon`/`authenticated`; only `service_role` (server-side,
+  `lib/analytics-data.ts`) can read them, since Postgres views otherwise
+  run with their creator's privileges and could bypass the underlying
+  tables' RLS.
+- Three real forecasting models live in `lib/forecast.ts` (linear OLS
+  trend, Holt exponential smoothing, classical seasonal decomposition) —
+  closed-form statistics, no AI/LLM involved. Each has a widening
+  confidence band and a plain-language explanation surfaced via the info
+  buttons in `HistoricalsForecastSection`. Inventory reorder points
+  (`getInventoryReorderView` in `lib/analytics-data.ts`) use a standard
+  safety-stock formula: avg daily demand (trailing 90 days, zero-filled)
+  × 14-day assumed lead time, plus a 1.65σ safety buffer for ~95% service
+  level. Chart titles are computed from the data, not hardcoded, and
+  change when the year slicer changes — see each section's `title`/`useMemo`.
+- Part D (AI assistant) is not yet built. When it is: management-facing
+  only, inside `/management`, never on the public storefront; read-only
+  tools grounded in the shop's own data; de-identify customer data before
+  the model sees it; cap chart items at ~15; see the (forthcoming)
+  AI-MANAGEMENT-SECURITY-API.md for the full guardrails once written.
 
 ## Process
 
