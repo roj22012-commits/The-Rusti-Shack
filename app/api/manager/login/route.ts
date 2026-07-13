@@ -14,7 +14,20 @@ export async function POST(req: Request) {
     return NextResponse.json({ error: "Invalid request" }, { status: 400 });
   }
 
-  if (!body.password || !checkManagerPassword(body.password)) {
+  let correct: boolean;
+  try {
+    correct = !!body.password && checkManagerPassword(body.password);
+  } catch {
+    // MANAGER_PASSWORD isn't set in this environment -- a deploy config
+    // problem, not a wrong password. Surfacing this distinctly saves
+    // real debugging time versus a misleading "incorrect password".
+    return NextResponse.json(
+      { error: "Server isn't configured with a manager password yet (MANAGER_PASSWORD env var missing)." },
+      { status: 500 }
+    );
+  }
+
+  if (!correct) {
     // Deliberately vague: don't confirm whether a password was "close".
     return NextResponse.json({ error: "Incorrect password" }, { status: 401 });
   }
